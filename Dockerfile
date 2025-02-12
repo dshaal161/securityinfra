@@ -20,4 +20,8 @@ WORKDIR /home/tdt
 
 RUN python3 -m pip install --upgrade pip && python3 -m pip install -r requirements.txt
 
+
+
+RUN chmod +x entrypoint.sh
+
 ENTRYPOINT ["/home/tdt/entrypoint.sh"]

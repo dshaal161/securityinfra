@@ -8,7 +8,7 @@ from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
 
-log_file_dir = os.getenv("LGO_FILE_DIR")
+log_file_dir = os.getenv("LOG_FILE_DIR")
 if not log_file_dir:
     raise ValueError("Environment variable LOG_FILE_DIR is missing")
 

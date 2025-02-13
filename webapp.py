@@ -23,6 +23,7 @@ commands = [
     "touch /tmp/test-dir/file1.txt",
     "ls -lah /tmp/test-dir",
     "rm -rf /tmp/test-dir",
+    "mkdir /tmp/test-dir",
     "touch /tmp/test-dir/file1.txt",
     "echo H >> /tmp/test-dir/file1.txt",
     "echo E >> /tmp/test-dir/file1.txt",

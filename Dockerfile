@@ -1,5 +1,5 @@
 # Use an official lightweight Python base image
-FROM docker-io.art.code.pan.run/python:3.11-slim
+FROM python:3.11-slim
 
 # Set environment variables to prevent Python from writing .pyc files and enable unbuffered output
 ENV PYTHONUNBUFFERED=1 \
